@@ -9,15 +9,16 @@ public class Praktikum {
 
         if (isLeapYear(year)) {
             // здесь нужно вывести результат
-            System.out.println("этот год высокосный год 12.09" + year + ".");
+            System.out.println("этот год високосный год 12.09" + year + ".");
         } else {
-            System.out.println("этот не год высокосный год 12.09" + year + ".");
-        }
+            System.out.println("этот не год високосный год 12.09" + year + ".");
+        } // Отсутствует разница между выводами.
     }
 
     public static boolean isLeapYear(int year) {
         // здесь нужно определить, является ли переданный год високосным
         if (year % 4 == 0)return true;
+        //Неполное условие
         return false;
     }
 }
